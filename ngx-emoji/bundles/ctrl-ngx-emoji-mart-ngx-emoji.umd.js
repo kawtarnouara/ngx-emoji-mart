@@ -3248,19 +3248,7 @@ var emojis = [
         sheet: [41, 49],
         hidden: ['messenger']
     },
-    {
-        name: 'White Smiling Face',
-        unified: '263A-FE0F',
-        short_name: 'relaxed',
-        keywords: [
-            'face',
-            'blush',
-            'massage',
-            'happiness'
-        ],
-        sheet: [47, 41],
-        hidden: ['emojione']
-    },
+
     {
         name: 'Zebra Face',
         unified: '1F993',
