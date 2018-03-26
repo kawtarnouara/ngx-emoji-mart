@@ -3201,19 +3201,6 @@ const emojis = [
         hidden: ['messenger']
     },
     {
-        name: 'White Smiling Face',
-        unified: '263A-FE0F',
-        short_name: 'relaxed',
-        keywords: [
-            'face',
-            'blush',
-            'massage',
-            'happiness'
-        ],
-        sheet: [47, 41],
-        hidden: ['emojione']
-    },
-    {
         name: 'Zebra Face',
         unified: '1F993',
         short_name: 'zebra_face',

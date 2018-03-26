@@ -4804,19 +4804,7 @@ var emojis = [
         sheet: [41, 51],
         hidden: ['messenger']
     },
-    {
-        name: 'Relieved Face',
-        unified: '1F60C',
-        short_name: 'relieved',
-        keywords: [
-            'face',
-            'relaxed',
-            'phew',
-            'massage',
-            'happiness'
-        ],
-        sheet: [30, 36]
-    },
+   
     {
         name: 'Caribbean Netherlands Flag',
         unified: '1F1E7-1F1F6',
