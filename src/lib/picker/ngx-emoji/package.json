@@ -1,0 +1,17 @@
+{
+  "name": "@ctrl/ngx-emoji-mart/ngx-emoji",
+  "author": "scttcper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TypeCtrl/ngx-emoji-mart.git"
+  },
+  "license": "MIT",
+  "main": "bundles/ctrl-ngx-emoji-mart-ngx-emoji.umd.js",
+  "module": "esm5/ctrl-ngx-emoji-mart-ngx-emoji.js",
+  "es2015": "esm2015/ctrl-ngx-emoji-mart-ngx-emoji.js",
+  "typings": "ctrl-ngx-emoji-mart-ngx-emoji.d.ts",
+  "metadata": "ctrl-ngx-emoji-mart-ngx-emoji.metadata.json",
+  "dependencies": {
+    "tslib": "^1.7.1"
+  }
+}
