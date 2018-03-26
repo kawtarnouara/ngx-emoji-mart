@@ -1,79 +1,60 @@
 {
-  "name": "@ctrl/ngx-emoji-mart",
-  "version": "0.1.0",
-  "license": "MIT",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ts-node build.ts",
-    "publish": "cd dist/packages-dist && npm publish --access public",
-    "bundlesize": "npx bundlesize",
-    "test": "ng test --single-run --browsers=ChromeCI",
-    "test:watch": "ng test --browsers=ChromeCI",
-    "test:ci": "ng test --single-run --code-coverage --no-progress --browsers=ChromeCI",
-    "lint": "ng lint --type-check -t stylish",
-    "lint:fix": "ng lint --type-check --fix -t stylish",
-    "e2e": "ng e2e",
-    "cleanup": "rimraf build dist waste deploy",
-    "ghpages": "ng build --prod --no-progress --baseHref='/ngx-emoji-mart/'"
+  "$schema": "../../../node_modules/ng-packagr/package.schema.json",
+  "_from": "@ctrl/ngx-emoji-mart@0.0.7",
+  "_id": "@ctrl/ngx-emoji-mart@0.0.7",
+  "_inBundle": false,
+  "_integrity": "sha512-mnufgk+EPITNojR7gbFX9RNULbkx9XCZCm4o98GFzVuCp1eRjG1ZBgYCd0WGexQ0aflyvitk6/Dvk6Rzjpswzg==",
+  "_location": "/@ctrl/ngx-emoji-mart",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@ctrl/ngx-emoji-mart@0.0.7",
+    "name": "@ctrl/ngx-emoji-mart",
+    "escapedName": "@ctrl%2fngx-emoji-mart",
+    "scope": "@ctrl",
+    "rawSpec": "0.0.7",
+    "saveSpec": null,
+    "fetchSpec": "0.0.7"
   },
-  "private": true,
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@ctrl/ngx-emoji-mart/-/ngx-emoji-mart-0.0.7.tgz",
+  "_shasum": "5960da0d44cc639c698bbae8a4de8f146ba2b854",
+  "_spec": "@ctrl/ngx-emoji-mart@0.0.7",
+  "_where": "D:\\kawta\\Documents\\GI\\PFE\\apps\\discuss-frontend",
+  "bugs": {
+    "url": "https://github.com/TypeCtrl/ngx-emoji-mart/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
-    "@angular/animations": "5.2.9",
-    "@angular/common": "5.2.9",
-    "@angular/compiler": "5.2.9",
-    "@angular/core": "5.2.9",
-    "@angular/forms": "5.2.9",
-    "@angular/http": "5.2.9",
-    "@angular/platform-browser": "5.2.9",
-    "@angular/platform-browser-dynamic": "5.2.9",
-    "@angular/router": "5.2.9",
-    "@ctrl/ngx-github-buttons": "1.0.9",
-    "bootstrap": "4.0.0",
-    "core-js": "2.5.3",
-    "rxjs": "5.5.7",
-    "zone.js": "0.8.20"
+    "tslib": "^1.7.1"
   },
-  "devDependencies": {
-    "@angular/cli": "1.7.3",
-    "@angular/compiler-cli": "5.2.9",
-    "@angular/language-service": "5.2.9",
-    "@types/fs-extra": "5.0.1",
-    "@types/inflection": "1.5.28",
-    "@types/jasmine": "2.8.6",
-    "@types/jasminewd2": "2.0.3",
-    "@types/node": "9.6.0",
-    "@types/rimraf": "2.0.2",
-    "@types/stringify-object": "3.2.0",
-    "codelyzer": "4.2.1",
-    "emoji-datasource": "4.0.3",
-    "emojilib": "2.2.12",
-    "fs-extra": "5.0.0",
-    "inflection": "1.12.0",
-    "jasmine-core": "2.99.1",
-    "jasmine-spec-reporter": "4.2.1",
-    "karma": "2.0.0",
-    "karma-chrome-launcher": "2.2.0",
-    "karma-coverage-istanbul-reporter": "1.4.2",
-    "karma-jasmine": "1.1.1",
-    "karma-jasmine-html-reporter": "0.2.2",
-    "karma-mocha-reporter": "2.2.5",
-    "ng-packagr": "2.2.0",
-    "protractor": "5.3.0",
-    "rimraf": "2.6.2",
-    "stringify-object": "3.2.2",
-    "ts-node": "5.0.1",
-    "tslint": "5.9.1",
-    "typescript": "2.6.2"
+  "deprecated": false,
+  "description": "Customizable Slack-like emoji picker for Angular",
+  "es2015": "esm2015/ctrl-ngx-emoji-mart.js",
+  "homepage": "https://github.com/TypeCtrl/ngx-emoji-mart",
+  "keywords": [
+    "angular",
+    "emoji",
+    "picker"
+  ],
+  "license": "MIT",
+  "main": "bundles/ctrl-ngx-emoji-mart.umd.js",
+  "metadata": "ctrl-ngx-emoji-mart.metadata.json",
+  "module": "esm5/ctrl-ngx-emoji-mart.js",
+  "name": "@ctrl/ngx-emoji-mart",
+  "peerDependencies": {
+    "@angular/core": ">=5.0.0",
+    "@angular/common": ">=5.0.0",
+    "rxjs": "^5.5.0"
   },
-  "bundlesize": [
-    {
-      "path": "./dist/packages-dist/bundles/ctrl-ngx-emoji-mart.umd.min.js",
-      "maxSize": "10 kB"
-    },
-    {
-      "path": "./dist/packages-dist/ngx-emoji/bundles/ctrl-ngx-emoji-mart-ngx-emoji.umd.min.js",
-      "maxSize": "60 kB"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TypeCtrl/ngx-emoji-mart.git"
+  },
+  "typings": "ctrl-ngx-emoji-mart.d.ts",
+  "version": "0.0.7"
 }
